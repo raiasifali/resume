@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-gray-50 dark:bg-[#111827] px-4 pb-20">
+    <div id="experience" class="w-full bg-gray-50 dark:bg-[#111827] px-4 pb-20">
         <ContentHeader label="Experience" />
         <p class="font-normal text-lg text-gray-600 dark:text-[#D1D5DB] text-center mt-4">Here is a quick summary of my
             most recent experiences:</p>

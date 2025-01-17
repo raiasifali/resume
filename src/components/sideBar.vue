@@ -26,12 +26,12 @@
             </button>
         </div>
         <div class="p-4 flex flex-col gap-4 font-medium text-base text-gray-600 dark:text-[#d1d5db]">
-            <p class="">About</p>
-            <p class="">Work</p>
-            <p class="">Testomonials</p>
-            <p class="">Contact</p>
+            <p class="mt-3" @click="$emit('navigate','about')">About</p>
+            <p class="mt-3" @click="$emit('navigate', 'work')">Work</p>
+            <p class="mt-3" @click="$emit('navigate', 'about')">Skills</p>
+            <p class="mt-3" @click="$emit('navigate', 'contact')">Contact</p>
         </div>
-        <div class="p-4 cursor-pointer border-t dark:border-[#1F2937]">
+        <div class="p-4 mt-3 cursor-pointer border-t dark:border-[#1F2937]">
             <Button label='Download Cv' />
         </div>
     </div>
@@ -44,7 +44,7 @@ defineProps < {
     isMobileView: boolean
 } > ()
 
-const emits = defineEmits(['toggleSideBar'])
+const emits = defineEmits(['toggleSideBar','navigate'])
 
 const toggleSideBar = ()=>{
     emits('toggleSideBar')

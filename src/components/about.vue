@@ -1,12 +1,13 @@
 <template>
-    <div class="bg-gray-50 dark:bg-[#111827] w-full pb-24">
-        <ContentHeader label="About me"/>
+    <div id="about" class="bg-gray-50 dark:bg-[#111827] w-full pb-24">
+        <ContentHeader label="About me" />
         <div class="sm:grid sm:grid-cols-2">
             <div class="flex justify-center mt-14 sm:mt-20">
                 <div class="relative bg-gray-200 dark:bg-[#374051] w-[320px] h-[360px]">
                     <div
                         class="absolute border-8 border-white dark:border-[#111827] bottom-5 left-5 right-5 sm:-right-7">
-                        <img :src="ProfileImage" alt="Profile Image" height="360px" class="object-cover h-[360px]" />
+                        <img :src="ProfileImage" alt="Profile Image" height="360px"
+                            class="object-cover h-[360px] w-[320px]" />
                     </div>
                 </div>
             </div>
@@ -49,7 +50,7 @@
 </template>
 
 <script setup>
-import ProfileImage from '../assets/images/profileImage.jpeg'
+import ProfileImage from '../assets/images/about-image.jpg'
 import ContentHeader from '../common/contentHeader.vue'
 
 </script>

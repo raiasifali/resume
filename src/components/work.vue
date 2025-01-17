@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full sm:px-36 px-4 pb-20">
+    <div id="work" class="w-full sm:px-36 px-4 pb-20">
         <ContentHeader label="Work" />
         <p class="font-normal text-lg text-gray-600 dark:text-[#D1D5DB] text-center mt-4">Some of the nwtworthy project
             that i have built:</p>
@@ -43,7 +43,7 @@ const projectsDetail = ref([{
     {
     image: EarnIt,
     title: "EarnIt",
-    description: "Developed the frontend of the EarnIt platform from scratch using Next.js, creating a modern, scalable, and responsive web application. The platform allows users to earn money online through various methods, including playing games, utilizing cashback links, sharing referral links, and engaging with advertisements. Leveraged Next.js features such as Server-Side Rendering (SSR) and Static Site Generation (SSG) to optimize performance and enhance SEO. Designed and styled user-friendly and responsive interfaces using Tailwind CSS, ensuring a seamless experience across devices. Implemented dynamic, API-driven features to provide real-time updates and foster user engagement. Integrated robust state management to handle user sessions, transactions, and earnings efficiently, delivering a reliable and interactive platform that prioritizes usability and scalability.",
+    description: "Developed the EarnIt platform's frontend using Next.js, enabling users to earn money through games, cashback links, referrals, and ads. Leveraged SSR, SSG, and Tailwind CSS for performance, SEO, and responsive design. Implemented API-driven features and state management for real-time updates, sessions, and transactions, delivering a scalable and user-friendly platform.",
     skills: ['React.Js','NextJs','TailwindCss','PostgresSql', 'figma', 'Git']
     }, 
     {

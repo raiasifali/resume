@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full px-4 pb-20">
+    <div id="skills" class="w-full px-4 pb-20">
         <ContentHeader label="Skills" />
         <p class="font-normal text-lg text-gray-600 dark:text-[#D1D5DB] text-center mt-4">The skills, tools and
             technologies I am really

@@ -6,11 +6,18 @@ import Skills from '../src/components/skills.vue'
 import Experience from '../src/components/experience.vue'
 import Work from '../src/components/work.vue'
 import Contact from '../src/components/contact.vue'
+
+const scrollToSection = (id: string) => {
+  const section = document.getElementById(id)
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' })
+  }
+}
 </script>
 
 
 <template>
-    <NavBar />
+    <NavBar @navigate="scrollToSection"/>
     <Intro />
     <About />
     <Skills />

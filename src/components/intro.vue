@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto grid grid-cols-1 sm:grid-cols-2 p-5 sm:px-28 sm:py-14">
+    <div id="intro" class="mx-auto grid grid-cols-1 sm:grid-cols-2 p-5 sm:px-28 sm:py-14">
         <div class="flex flex-col gap-2 sm:order-1 order-2 mt-10 sm:mt-0">
             <p class="font-bold sm:text-4xl text-2xl text-gray-900 dark:text-[#f9fafb]">Hi, I'm Mirza Jamal ud din 👋
             </p>
