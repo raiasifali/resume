@@ -2,6 +2,7 @@ import Stack360 from '../assets/images/stack360-logo.png'
 import MikroStarTech from '../assets/images/mikrostar-tech.jpg'
 export const experienceData = [
     {
+        href: "https://stack360.co/",
         logo: Stack360,
         companyName: "Stack360",
         title: "Frontend Web Developer",
@@ -15,6 +16,7 @@ export const experienceData = [
         ],
     },
     {
+        href: "https://mikrostartech.com/index.html",
         logo: MikroStarTech,
         companyName: "MikrostarTech",
         title: "Frontend Web Developer",
