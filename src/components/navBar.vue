@@ -43,7 +43,8 @@
                 </svg>
             </div>
             <div>
-                <Button label="Download CV" @click="downloadCv" />
+                <Button label="Download CV"><a href="https://filebin.net/rmtef12wwhczhc98/Asif%20Full%20Stack%20Resume.pdf" download="your_resume.pdf">Download Resume</a></Button>
+                
             </div>
         </div>
         <div class="hidden sm:flex gap-3">

@@ -34,7 +34,7 @@
             <p class="mt-3" @click="$emit('navigate', 'contact')">Contact</p>
         </div>
         <div class="p-4 mt-3 cursor-pointer border-t dark:border-[#1F2937]">
-            <Button label='Download Cv' @click="$emit('downloadCv')" />
+            <Button label="Download CV"><a href="https://filebin.net/rmtef12wwhczhc98/Asif%20Full%20Stack%20Resume.pdf" download="your_resume.pdf">Download Resume</a></Button>
         </div>
     </div>
 </template>
