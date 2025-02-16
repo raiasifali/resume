@@ -1,32 +1,19 @@
-import Stack360 from '../assets/images/stack360-logo.png'
-import MikroStarTech from '../assets/images/mikrostar-tech.jpg'
+import Stack360 from '/public/stack360.png'
 export const experienceData = [
     {
         href: "https://stack360.co/",
         logo: Stack360,
         companyName: "Stack360",
-        title: "Frontend Web Developer",
-        tenure: "Dec 2022 - Present",
+        title: "Full Stack Developer",
+        tenure: "Aug 2020 - Present",
         responsibilities: [
-            "Designed and developed responsive user interfaces using modern frameworks like React and Vue.js, ensuring cross-browser compatibility.",
-            "Collaborated with designers and backend developers to implement seamless and user-friendly web experiences.",
-            "Optimized web performance, reducing load times by up to 30% through efficient coding and asset management.",
-            "Built reusable components and libraries, streamlining development processes and enhancing team productivity.",
-            "Integrated APIs to enable dynamic functionality, such as real-time data updates and interactive features.",
+            "Developed applications using Ruby on Rails, Vue.js, and Javascript.",
+            "Engaged in one-on-one client consultations and development meetings across various projects.",
+            "Orchestrated the creation of scalable applications, architecting robust databases, APIs, and user interfaces to ensure seamless performance and user interaction.",
+            "Facilitated the successful deployment of multifaceted projects, employing a full-stack approach to drive innovation and meet diverse project requirements.",
+            "Innovated seamless user experiences by integrating cutting-edge front-end and back-end technologies, optimizing performance across varied platforms.",
+            "Code Quality & Best Practices: Write clean, maintainable code and follow best practices for development. Conduct code reviews to ensure quality and efficiency in deliverables.",
+            "Led client collaboration efforts, conducting detailed consultations and refining project scopes to align with business objectives, fostering a cohesive development process.",
         ],
-    },
-    {
-        href: "https://mikrostartech.com/index.html",
-        logo: MikroStarTech,
-        companyName: "MikrostarTech",
-        title: "Frontend Web Developer",
-        tenure: "Dec 2021 - May 2022",
-        responsibilities: [
-            "Assisted in designing and developing responsive web pages, ensuring a seamless user experience across devices.",
-            "Collaborated with the backend team to integrate APIs, enabling dynamic functionality and data-driven components.",
-            "Improved website performance by optimizing assets and implementing efficient coding practices.",
-            "Developed reusable and modular components, reducing development time for future projects.",
-            "Worked on debugging and resolving UI issues to ensure polished and user-friendly applications.",
-        ],
-    },
+    }
 ];

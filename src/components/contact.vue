@@ -6,20 +6,20 @@
         <div class="flex gap-4 justify-center mt-12 items-center">
             <img :src="Email" alt="Email icon" />
             <p class="text-lg sm:text-4xl font-semibold text-gray-900 dark:text-[#F9FAFB]">
-                mirzajamaluddin44@gmail.com
+                devasif.alee@gmail.com
             </p>
             <p v-if="isCopied === 'email'" class="font-normal text-sm text-gray-600 dark:text-[#D1D5DB]">Copied</p>
             <Popper v-else arrow hover content="Copy Email" placement="top">
                 <img :src="Copy" alt="Copy icon" class="cursor-pointer" id="email"
-                    v-clipboard:copy="'mirzajamaluddin44@gmail.com'" v-clipboard:success="onCopy" />
+                    v-clipboard:copy="'devasif.alee@gmail.com'" v-clipboard:success="onCopy" />
             </Popper>
         </div>
         <div class="flex gap-5 justify-center mt-4 items-center">
             <img :src="Call" alt="Call icon" />
-            <p class="text-lg sm:text-4xl font-semibold text-gray-900 dark:text-[#F9FAFB]">+923314980509</p>
+            <p class="text-lg sm:text-4xl font-semibold text-gray-900 dark:text-[#F9FAFB]">+92 300 0041176</p>
             <p v-if="isCopied === 'phoneNo'" class="font-normal text-sm text-gray-600 dark:text-[#D1D5DB]">Copied</p>
             <Popper v-else arrow hover content="Copy Phone No" placement="right">
-                <img :src="Copy" alt="Copy icon" id="phoneNo" v-clipboard:copy="'+923314980509'"
+                <img :src="Copy" alt="Copy icon" id="phoneNo" v-clipboard:copy="'+923000041176'"
                     v-clipboard:success="onCopy" class="cursor-pointer" />
             </Popper>
         </div>

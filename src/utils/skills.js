@@ -16,4 +16,9 @@ export const skills = [
     { icon: Bootstrap, name: "Bootstrap" },
     { icon: NodeJs, name: "NodeJs" },
     { icon: MongoDb, name: "MongoDb" },
+    { icon: NextJs, name: "NextJs" },
+    { icon: TailwindCSS, name: "TailwindCSS" },
+    { icon: Bootstrap, name: "Bootstrap" },
+    { icon: NodeJs, name: "NodeJs" },
+    { icon: MongoDb, name: "MongoDb" },
 ];

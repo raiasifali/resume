@@ -16,10 +16,11 @@ const scrollToSection = (id: string) => {
 </script>
 
 
-<template>
+<template >
     <NavBar @navigate="scrollToSection"/>
     <Intro />
-    <About />
+    <hr/>
+    <!-- <About /> -->
     <Skills />
     <Experience />
     <Work />

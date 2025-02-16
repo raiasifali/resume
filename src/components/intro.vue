@@ -1,16 +1,10 @@
 <template>
     <div id="intro" class="mx-auto grid grid-cols-1 sm:grid-cols-2 p-5 sm:px-28 sm:py-14">
         <div class="flex flex-col gap-2 sm:order-1 order-2 mt-10 sm:mt-0">
-            <p class="font-bold sm:text-4xl text-2xl text-gray-900 dark:text-[#f9fafb]">Hi, I'm Mirza Jamal ud din 👋
+            <p class="font-bold sm:text-4xl text-2xl text-gray-900 dark:text-[#f9fafb]">Hi, I'm Asif 👋
             </p>
             <p class="font-normal text-sm text-gray-600 dark:text-[#D1D5DB]">
-                Highly skilled professional with a robust background in creating dynamic and responsive web
-                applications.
-                Proficient in leveraging modern JavaScript frameworks such as Vue.js, ReactJS and NextJs to craft
-                intuitive and engaging user interfaces. Possess a strong understanding of front-end development,
-                adept at building scalable, efficient, and visually appealing solutions. Known for delivering innovative
-                solutions that seamlessly integrate user-centric designs with powerful functionalities, ensuring an
-                exceptional user experience.</p>
+                I’m a Full Stack Engineer with a passion for building dynamic, user-centric applications. Proficient in Ruby on Rails for backend development and experienced with React and Vue for crafting engaging front-end experiences. I thrive in collaborative environments, leveraging my technical skills and problem-solving abilities to deliver robust solutions and drive innovation. Let's connect and explore how we can create impactful software together!</p>
             <div class="flex flex-col">
                 <div class="flex items-center gap-3 mt-12 ">
                     <div>
@@ -46,5 +40,5 @@
 </template>
 
 <script setup>
-import ProfileImage from '../assets/images/profileImage.jpeg'
+import ProfileImage from '/public/asif.jpg'
 </script>
