@@ -1,6 +1,6 @@
 <template>
     <div
-        class="w-full flex flex-wrap gap-3 p-5 sm:px-28 py-5 sm:flex-row-reverse sm:items-center justify-end md:justify-center lg:justify-between dark:bg-n-gradient shadow-custom-inset backdrop-blur-custom sticky top-0 left-0 z-50">
+        class="w-full flex flex-wrap gap-3 p-5 sm:px-28 py-5 sm:flex-row-reverse sm:items-center justify-between md:justify-center lg:justify-between shadow-custom-inset backdrop-blur-custom sticky top-0 left-0 z-50">
         <div
             class="hidden sm:flex items-center flex-wrap md:ml-auto font-medium text-base text-gray-600 dark:text-[#D1D5DB]">
             <!-- <p class="pr-6 cursor-pointer" @click="$emit('navigate','about')">About</p> -->
@@ -62,11 +62,13 @@
                 </svg>
             </a>
         </div>
+        <div class="sm:hidden flex justify-start">
+            <h2 class="float-left">Asif Ali</h2>
+        </div>
         <div class="sm:hidden flex justify-end" @click="isMobileView = !isMobileView">
-            <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="30px" height="30px" class="border-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_429_11066)">
-                    <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#292929" stroke-width="2.5"
-                        stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                 </g>
                 <defs>
                     <clipPath id="clip0_429_11066">
@@ -104,3 +106,9 @@ const downloadCv = ()=>{
 }
 
 </script>
+
+<style scoped>
+svg:focus {
+  outline: none;
+}
+</style>
