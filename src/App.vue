@@ -19,7 +19,7 @@ const scrollToSection = (id: string) => {
 <template >
     <NavBar @navigate="scrollToSection"/>
     <Intro />
-    <hr/>
+    <hr style="border-color: rebeccapurple; width: 90%;" class="mx-auto"/>
     <!-- <About /> -->
     <Skills />
     <Experience />
