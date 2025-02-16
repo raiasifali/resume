@@ -100,7 +100,7 @@ const scrollToSection = (id)=>{
 
 const downloadCv = ()=>{
     const link = document.createElement('a');
-    link.href ="src/assets/Asif Full Stack Resume.pdf";
+    link.href ="/public/asif.pdf";
     link.download = "Asif's Resume";
     link.click();
 }
