@@ -40,5 +40,5 @@
 </template>
 
 <script setup>
-import ProfileImage from '/public/asif.jpg'
+import ProfileImage from '/public/For_DP_1.png'
 </script>
